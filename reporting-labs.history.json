@@ -1,0 +1,41 @@
+[
+ {
+  "time": 1791426573114.6687,
+  "duration": 35405.06884765625,
+  "passed": 7,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 7,
+  "tests": {
+   "pytest::tests/cart/test_add_to_cart.py::test_add_to_cart": [
+    "p",
+    8918
+   ],
+   "pytest::tests/cart/test_add_to_cart.py::test_remove_product_from_cart": [
+    "p",
+    5419
+   ],
+   "pytest::tests/checkout/test_place_order.py::test_place_order": [
+    "p",
+    4840
+   ],
+   "pytest::tests/login/test_login.py::test_login_with_standard_user": [
+    "p",
+    3644
+   ],
+   "pytest::tests/login/test_login.py::test_invalid_login": [
+    "p",
+    3749
+   ],
+   "pytest::tests/login/test_login.py::test_login_with_no_credentials": [
+    "p",
+    3495
+   ],
+   "pytest::tests/login/test_logout.py::test_logout": [
+    "p",
+    5109
+   ]
+  }
+ }
+]
